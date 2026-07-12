@@ -1,8 +1,6 @@
 function displayItinerary(response) {
-  let resultSection = document.querySelector("#result-section");
   let result = document.querySelector("#result");
-  resultSection.classList.remove("hidden");
-  //result.style.display = "block";
+  result.style.display = "block";
 
   new Typewriter(result, {
     strings: response.data.answer,
@@ -19,9 +17,7 @@ function generateItinerary(event) {
   let days = document.querySelector("#days").value;
   let budget = document.querySelector("#budget").value;
   let preferences = document.querySelector("#preferences").value;
-  let resultSection = document.querySelector("#result-section");
   let result = document.querySelector("#result");
-  resultSection.classList.remove("hidden");
 
   result.style.display = "block";
 
