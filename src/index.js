@@ -36,7 +36,7 @@ Create a detailed day-by-day itinerary.
 Include:
 - Daily activities
 - Food recommendations
-- Estimated budget
+- Estimated budget in country currency
 - Travel tips
 
 Budget: ${budget}
