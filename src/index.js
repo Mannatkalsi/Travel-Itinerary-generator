@@ -23,7 +23,7 @@ function generateItinerary(event) {
   let result = document.querySelector("#result");
   resultSection.classList.remove("hidden");
 
-  //result.style.display = "block";
+  result.style.display = "block";
 
   result.innerHTML = "✈️ Creating your personalised itinerary...";
 
